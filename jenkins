@@ -1,0 +1,10 @@
+node('master')
+{
+stage('continuous download')
+{ 
+  git https://github.com/thrinadhp/maven.git
+}
+stage('continuous build')
+{
+   sh 'mvn package'
+}
