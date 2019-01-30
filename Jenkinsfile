@@ -8,4 +8,8 @@ node('master')
      {
        sh 'mvn package'
       }
+      stage('test')
+      {
+      sh 'ls -l'
+      }
 }
