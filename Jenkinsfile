@@ -2,7 +2,7 @@ node('master')
 {
    stage('Continuous Download')
     { 
-       git 'https://github.com/thrinadhp/maven.git'
+       git 'https://github.com/thrinadhp/scripted.git'
      }
     stage('Continuous Build')
      {
